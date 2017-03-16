@@ -5,7 +5,6 @@ package com.pinnacle.garorasu.transportmvp.ChooseDestination;
  */
 
 public interface ChooseDestinationView {
-    void requestOptions(String source);
     void showProgress();
     void hideProgress();
     void showError();

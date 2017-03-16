@@ -5,7 +5,6 @@ package com.pinnacle.garorasu.transportmvp.ChooseSource;
  */
 
 public interface ChooseSourceView {
-    void requestOptions();
     void showProgress();
     void hideProgress();
     void showError();
